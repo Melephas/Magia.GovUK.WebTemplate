@@ -1,0 +1,244 @@
+﻿.lbguidance {
+    margin-top: 20px;
+    background: #e1f0fd;
+    border: solid 1px #979797;
+    border-left: 8px solid #5694ca;
+    display: inline-block;
+    width: 95%;
+    margin-bottom: 0px;
+}
+
+.guidance {
+    font-family: GDS Transport,Arial,sans-serif;
+    line-height: 30px;
+    font-size:18px;
+}
+
+.guidancehr {
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: #bfc1c3; /* old IE */
+    background-color: #bfc1c3; /* Modern Browsers */
+}
+
+.lbuserinfo {
+    float: left;
+    margin-top: 18px;
+    font-family: GDS Transport,Arial,sans-serif;
+}
+
+.lbinfotop {
+    height: 50px;
+    margin-bottom: 18px;
+    padding-top: 18px;
+    padding-left: 10px;
+}
+
+.lbinfobottomblue {
+    height:30px;
+    font-size: 22px;
+    font-weight: bold;
+    float:right;
+    margin-right: 20px;
+}
+
+.lbinfobottomgrey {
+    height:30px;
+    font-size: 22px;
+    font-weight: bold;
+    float:right;
+    margin-right: 20px;
+    color:black;"
+}
+
+.lbinfocontainer {
+    border: solid 1px #ccc;
+    width: 146px;
+    margin-bottom: 20px;
+    margin-right: 18px;
+    font-size: 18px;
+}
+
+.lbinfocontainerblue {
+    background:#025ea5; 
+    color: white;
+}
+
+.lbinfocontainergrey {
+    background: #f7f7f7;
+    color: #025ea5;
+}
+
+.lbstate {
+    color: white;
+    font-weight: bold;
+    width: 130px;
+}
+
+.lbstatenotstarted {
+    background: gray;
+}
+
+.lbstaterevoked {
+    background: purple;
+}
+
+.lbstatecompleted {
+    background: green;
+}
+
+.lbstateinprogress {
+    background: #f47738;
+}
+
+/* ARROWS */
+i {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: none;
+    padding: 3px;
+    margin-left: 10px;
+}
+
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    position: absolute;
+    margin-top: 5px;
+}
+
+.headerarrow {
+    cursor: context-menu;
+}
+
+.headernotallowed {
+    cursor: not-allowed;
+}
+
+.mc5050 {
+    width: 70%;
+}
+
+.mctopspacing {
+    margin-top:50px;
+}
+
+.guidancehrthick {
+    border-top: 8px solid #5694ca;
+}
+
+.app-related-items {
+    border-top: 10px solid #1d70b8;
+    padding-top: 10px;
+}
+
+.right {
+    float: right;
+}
+
+.margBtm {
+    margin-top: -20px;
+}
+
+.notStarted {
+    background-color: #626a6e;
+    color: #fff !important;
+}
+
+.right {
+    float: right;
+}
+
+.govuk-link:visited, a:visited {
+    color: #4c2c92;
+}
+
+.govuk-link:link, a:link {
+    color: #1d70b8;
+}
+
+.govuk-link, a {
+    font-family: "GDS Transport", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.completed {
+    background-color: #00703c;
+    color: #fff !important;
+}
+
+.inProgress {
+    background-color: #f47738;
+    color: #fff !important;
+}
+
+.acccorr {
+    margin-top: 2px;
+}
+
+.rightFlex {
+    float: right;
+    clear: none;
+    width: 200px;
+}
+
+.bmlbinfocontainerblue {
+    background: #025ea5;
+    color: white;
+}
+
+.infoCont {
+    border: solid 1px #ccc;
+    width: 146px;
+    margin-bottom: 20px;
+    margin-right: 18px;
+    font-size: 18px;
+    float: left;
+    clear: none;
+}
+
+.bmlbinfocontainergrey {
+    background: #f7f7f7;
+    color: #025ea5;
+}
+
+.bmlbinfotop {
+    height: 50px;
+    margin-bottom: 18px;
+    padding-top: 18px;
+    padding-left: 10px;
+}
+
+.bmlbinfobottomblue {
+    height: 30px;
+    font-size: 22px;
+    font-weight: bold;
+    float: right;
+    margin-right: 20px;
+}
+
+.bmlbinfobottomgrey {
+    height: 30px;
+    font-size: 22px;
+    font-weight: bold;
+    float: right;
+    margin-right: 20px;
+    color: black;
+}
+
+.farLeft {
+    float: left;
+    clear: none;
+    margin-left: -50px;
+}
+
+.hidden {
+    display: none;
+}
